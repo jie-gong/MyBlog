@@ -2,9 +2,17 @@ package com.site.blog.my.core.dao;
 
 import com.site.blog.my.core.entity.BlogLink;
 import com.site.blog.my.core.util.PageQueryUtil;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+@Mapper
 public interface BlogLinkMapper {
     int deleteByPrimaryKey(Integer linkId);
 

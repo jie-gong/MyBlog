@@ -5,6 +5,13 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.io.Serializable;
 import java.util.Date;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public class BlogListVO implements Serializable {
 
     private Long blogId;

@@ -1,8 +1,17 @@
 package com.site.blog.my.core.dao;
 
 import com.site.blog.my.core.entity.AdminUser;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
+@Mapper
 public interface AdminUserMapper {
     int insert(AdminUser record);
 

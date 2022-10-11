@@ -9,14 +9,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
+
 @Service
 public class CommentServiceImpl implements CommentService {
-    @Autowired
+    @Resource
     private BlogCommentMapper blogCommentMapper;
 
     @Override

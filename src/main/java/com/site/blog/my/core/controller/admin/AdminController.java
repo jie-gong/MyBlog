@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-
 /**
- * @author 13
- * @email 2449207463@qq.com
+ * @author: 公杰
+ * @Project: JavaLaity
  */
+
 @Controller
 @RequestMapping("/admin")
 public class AdminController {

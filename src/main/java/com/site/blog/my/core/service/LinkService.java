@@ -7,6 +7,13 @@ import com.site.blog.my.core.util.PageResult;
 import java.util.List;
 import java.util.Map;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public interface LinkService {
     /**
      * 查询友链的分页数据

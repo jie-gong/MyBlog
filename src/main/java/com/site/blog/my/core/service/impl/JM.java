@@ -5,13 +5,11 @@ import com.site.blog.my.core.util.MD5Util;
 /**
  * @author: 公杰
  * @Project: JavaLaity
- * @Pcakage: com.site.blog.my.core.service.impl.JM
- * @Date: 2022年09月25日 21:20
- * @Description:
  */
 
 //生成md5加密数据
 public class JM {
+    //单独创建的
     public static void main(String[] args) {
         String pwd = "";
         String gongjie123 = MD5Util.MD5Encode("gongjie123", pwd);

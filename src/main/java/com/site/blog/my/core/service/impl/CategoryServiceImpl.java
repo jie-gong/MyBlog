@@ -10,14 +10,21 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
 
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
-    @Autowired
+    @Resource
     private BlogCategoryMapper blogCategoryMapper;
-    @Autowired
+    @Resource
     private BlogMapper blogMapper;
 
     @Override

@@ -9,16 +9,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 @Service
 public class LinkServiceImpl implements LinkService {
 
-    @Autowired
+    @Resource
     private BlogLinkMapper blogLinkMapper;
 
+    //分页查询
     @Override
     public PageResult getBlogLinkPage(PageQueryUtil pageUtil) {
         List<BlogLink> links = blogLinkMapper.findLinkList(pageUtil);

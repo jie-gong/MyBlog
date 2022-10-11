@@ -4,6 +4,12 @@ import com.site.blog.my.core.entity.BlogComment;
 import com.site.blog.my.core.util.PageQueryUtil;
 import com.site.blog.my.core.util.PageResult;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public interface CommentService {
     /**
      * 添加评论

@@ -2,6 +2,13 @@ package com.site.blog.my.core.controller.vo;
 
 import java.io.Serializable;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public class SimpleBlogListVO implements Serializable {
 
     private Long blogId;

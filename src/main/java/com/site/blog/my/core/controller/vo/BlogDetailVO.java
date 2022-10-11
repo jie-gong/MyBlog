@@ -3,6 +3,12 @@ package com.site.blog.my.core.controller.vo;
 import java.util.Date;
 import java.util.List;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public class BlogDetailVO {
     private Long blogId;
 

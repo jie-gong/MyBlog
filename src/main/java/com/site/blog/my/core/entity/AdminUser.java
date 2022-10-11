@@ -1,5 +1,11 @@
 package com.site.blog.my.core.entity;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public class AdminUser {
     private Integer adminUserId;
 

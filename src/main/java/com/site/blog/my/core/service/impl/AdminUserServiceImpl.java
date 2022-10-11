@@ -8,6 +8,12 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 @Service
 public class AdminUserServiceImpl implements AdminUserService {
 

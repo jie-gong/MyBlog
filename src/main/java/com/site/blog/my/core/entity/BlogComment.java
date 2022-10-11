@@ -4,6 +4,13 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
+
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public class BlogComment {
     private Long commentId;
 

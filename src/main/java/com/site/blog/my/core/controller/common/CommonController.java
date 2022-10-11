@@ -13,11 +13,11 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link http://13blog.site
+ * @author: 公杰
+ * @Project: JavaLaity
+ * 验证码设置
  */
+
 @Controller
 public class CommonController {
 

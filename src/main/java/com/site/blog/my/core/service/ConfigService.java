@@ -2,6 +2,12 @@ package com.site.blog.my.core.service;
 
 import java.util.Map;
 
+
+/**
+ * @author: 公杰
+ * @Project: JavaLaity
+ */
+
 public interface ConfigService {
     /**
      * 修改配置项

@@ -8,21 +8,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * @author: 公杰
+ * @Project: JavaLaity
  * 后台系统身份验证拦截器
- *
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link http://13blog.site
  */
+
 @Component
 public class AdminLoginInterceptor implements HandlerInterceptor {
 
+
+    //单独拦截/admin之后的请求
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
         String requestServletPath = request.getServletPath();
         if (requestServletPath.startsWith("/admin") && null == request.getSession().getAttribute("loginUser")) {
             request.getSession().setAttribute("errorMsg", "请重新登陆");
+            //重定向到登录界面
             response.sendRedirect(request.getContextPath() + "/admin/login");
             return false;
         } else {
